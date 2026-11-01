@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://marighoul.com/feed.xml" rel="self" type="application/rss+xml" />
+        <title>Marighoul – Art and Comics</title>
+        <link>https://marighoul.com</link>
+        <description>Art site and Blog</description>
+        <language>en-us</language>
+        <item>
+    <title>Webcomic Diaries #1</title>
+    <pubDate>Tue, 4 Feb 2025 16:00:00 EST</pubDate>
+    <link>https://marighoul.com/blogposts/020425</link>
+    <guid>https://marighoul.com/blogposts/020425</guid>
+    <description>February 4, 2025 blog post</description>
+</item>
+    </channel>
+</rss>

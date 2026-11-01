@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+        <link rel="icon"  type="image/x-icon" href="favicon.png">
+        <meta name="description" content="Hi I’m Mari! A Comic artist, Illustrator, and occasional YouTuber. Here you’ll find a collection of my art, webcomics, projects, and thoughts all in one neat little place!">
+        <meta name="keywords" content="marighoul">
+        <title>Marighoul – Art & Comics</title>
+    </head>
+<body background="assets/background/gridpattern_bg.jpg">
+<!--SITE BOX-->
+
+<div id="sitecanvas"> 
+
+<!--HEADER-->
+
+<nav>
+    <div class="logo">
+        <a href="index.html"><img src="assets/logos/site_logo.png"></a>
+    </div>
+      <ul id="menulist">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="webcomics.html">WEBCOMICS</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="links.html">LINKS</a></li>
+     </ul>
+     <div class="menu-icon">
+         <img src="assets/icons/menu_icon.png" onclick="toggleMenu()">
+     </div>
+
+     <script>
+        let menulist = document.getElementById("menulist")
+        menulist.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menulist.style.maxHeight == "0px")
+        {
+            menulist.style.maxHeight = "360px";
+        }
+        else{
+            menulist.style.maxHeight = "0px";
+        }
+        }
+     </script>
+
+</nav>
+<!--CONTENT-->
+
+<div class="pagecanvas">
+    <div class="pagecontent">
+        <div class="welcomeflexbox">
+          <div class="welcomesection">
+            <h1 class="bigheader">WELCOME!</h1>
+         <p class="underheader"><b>Hi I’m Mari! A Comic artist, Illustrator, and occasional YouTuber.</b> Here you’ll find a collection of my art, webcomics, projects, and thoughts all in one neat little place! With how the internet is nowadays I wanted a space to express myself without feeling restricted by the algorithms of social media.</p>
+         <p>Currently I work on <b><a href="blog.html">blogging</a></b> about my art journey, editing videos for my <b><a href="https://www.youtube.com/channel/UCBvlVJqI3OqSBQYkrRZz9kA">Youtube channel</a></b>, and creating <b><a href="webcomics.html">webcomics</a></b>.</p>
+         <p>⭐<b><a href="https://ko-fi.com/marighoul"> Support Me on Ko-Fi </a></b>⭐</p>
+         <div class="socialmedialist">
+
+            <a href="https://bsky.app/profile/marighoul.bsky.social"><img src="assets/icons/bluesky_icon.png"></a>
+            <a href="https://marighoul.tumblr.com/"><img src="assets/icons/tumblr_icon.png"></a>
+            <a href="https://www.instagram.com/marighoul_/"><img src="assets/icons/instagram_icon.png"></a>
+            <a href="https://www.youtube.com/channel/UCBvlVJqI3OqSBQYkrRZz9kA"><img src="assets/icons/youtube_icon.png"></a>
+            
+           </div>
+           <a href="https://www.mabsland.com/Adoption.html"><img src="assets/icons/Censor_14c.gif"></a>
+           <img src="assets/icons/bookmark_this_page.gif">
+        
+        </div>
+          <div class="welcomeimg">
+            <img src="assets/landingpage.jpg">
+          </div>
+        </div>
+        <div class="flexboxtwo">
+          <div class="three">
+            <hr>
+            <h1 class="newsheader">LATEST NEWS</h1>
+            <p><b>January 18, 2025</b></p>
+            <p>Site is finally live! You can read more about the site launch and future plans over on the <b><a href="blogposts/011825.html">blog</a></b>.</p>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--FOOTER-->
+<footer>
+  <div id="footer">
+    <p>Copyright © 2025 Marighoul</p>
+</div>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+        <link rel="icon"  type="image/x-icon" href="favicon.png">
+        <title>About – Marighoul</title>
+    </head>
+<body background="assets/background/gridpattern_bg.jpg">
+<!--SITE BOX-->
+
+<div id="sitecanvas"> 
+
+<!--HEADER-->
+
+<nav>
+    <div class="logo">
+        <a href="index.html"><img src="assets/logos/site_logo.png"></a>
+    </div>
+      <ul id="menulist">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="webcomics.html">WEBCOMICS</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="links.html">LINKS</a></li>
+     </ul>
+     <div class="menu-icon">
+         <img src="assets/icons/menu_icon.png" onclick="toggleMenu()">
+     </div>
+
+     <script>
+        let menulist = document.getElementById("menulist")
+        menulist.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menulist.style.maxHeight == "0px")
+        {
+            menulist.style.maxHeight = "360px";
+        }
+        else{
+            menulist.style.maxHeight = "0px";
+        }
+        }
+     </script>
+
+</nav>
+<!--CONTENT-->
+
+<div class="pagecanvas">
+    <div class="pagecontent">
+
+        <div class="aboutflexbox">
+            <div class="authorimage">
+                <img src="assets/author.jpg">
+            </div>
+            <div class="aboutsection">
+            <h1 class="bigheader">ABOUT THE ARTIST</h1>
+         <p class="underheader">Hi I’m Mari. A Mexican-American artist creating original work through webcomics and other projects!</p>
+            <p>Besides drawing I love watching horror movies, playing cozy farming games, figure collecting, and anything magical girl related! Some of my favorite series include: <i>Tokyo Mew Mew</i>, <i>Shugo Chara</i>, <i>Cardcaptor Sakura</i>, and <i>Madoka Magica</i> just to name a few.</p>
+            <p>I created this site as a way to stay connected with everyone as they migrate to different social media sites (and to practice my coding skills). If you want to stay updated on all my projects and art this is definitely the place.</p>
+        <p>Contact: marighouldraws (at) gmail.com</p>
+        </div>
+        </div>
+        <!--CONTENT
+        <div class="flexboxstamps">
+            <img src="assets/icons/stamp_cardcaptor.gif">
+            <img src="assets/icons/stamp_ichigo_02.gif">
+            <img src="assets/icons/stamp_ichigo_03.gif">
+            <img src="assets/icons/stamp_lolirock_01.gif">
+            <img src="assets/icons/stamp_homura1.gif">
+            <img src="assets/icons/stamp_angeliclayer.png">
+            <img src="assets/icons/stamp_shugochara1.gif">
+            <img src="assets/icons/stamp_shugochara2.gif">
+
+        </div>
+          -->
+        <div class="flexboxtwo">
+            <div>
+            <hr>
+            <h1 id="faqheader">FREQUENTLY ASKED QUESTIONS</h1>
+        <p><u><b>TOOLS & PROGRAMS?</b></u></p>
+    <blockquote>  
+        XP-PEN 15.6 Artist Pro and Clip Studio Paint EX.
+    </blockquote>
+        <p><u><b>HOW DID YOU LEARN TO DRAW?</b></u></p>
+    <blockquote>
+        I've been drawing for as long as I can remember. I’m mostly self-taught, but I recommend studying the fundamentals like anatomy, color theory, perspective, etc., drawing out of your comfort zone, and using references when possible. Analyzing your favorite artists’ work and doing art studies also helps too. There’s so many tutorials/resources compared to when I started so it’s easier than ever to start improving.
+    </blockquote>
+    <p><u><b>WHEN WILL “.....” WEBCOMIC/VIDEO/PROJECT BE OUT?</b></u></p>
+    <blockquote>
+        IT'LL BE OUT WHEN IT'S OUT.
+        </blockquote>
+       <p><u><b>ARE YOU OPEN FOR COMMISSIONS?</b></u></p>
+    <blockquote>
+           Commissions are closed indefinitely. 
+        </blockquote>
+       
+    </div>
+    </div>
+
+        </div>
+    </div>
+        
+      
+
+
+
+
+
+<!--FOOTER-->
+<footer>
+    <div id="footer">
+        <p>Copyright © 2025 Marighoul</p>
+    </div>
+</footer>
+</div>
+</body>

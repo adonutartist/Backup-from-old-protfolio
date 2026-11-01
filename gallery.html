@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+        <link rel="icon"  type="image/x-icon" href="favicon.png">
+        <title>Gallery – Marighoul</title>
+    </head>
+<body background="assets/background/gridpattern_bg.jpg">
+<!--SITE BOX-->
+
+<div id="sitecanvas"> 
+
+<!--HEADER-->
+
+<nav>
+    <div class="logo">
+        <a href="index.html"><img src="assets/logos/site_logo.png"></a>
+    </div>
+      <ul id="menulist">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="webcomics.html">WEBCOMICS</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="links.html">LINKS</a></li>
+     </ul>
+     <div class="menu-icon">
+         <img src="assets/icons/menu_icon.png" onclick="toggleMenu()">
+     </div>
+
+     <script>
+        let menulist = document.getElementById("menulist")
+        menulist.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menulist.style.maxHeight == "0px")
+        {
+            menulist.style.maxHeight = "360px";
+        }
+        else{
+            menulist.style.maxHeight = "0px";
+        }
+        }
+     </script>
+
+</nav>
+<!--CONTENT-->
+
+<div class="pagecanvas">
+    <div class="pagecontent">
+        <h1 class="bigheader">GALLERY</h1>
+        <div class="artbox">
+            <div class="artcolumn">
+                <img src="artgallery/sailormoonr.jpg">
+                <img src="artgallery/sonicmiku.jpg">
+                <img src="artgallery/mg_wheel.jpg">
+                <img src="artgallery/hsr_petra.jpg">
+                <img src="artgallery/mewmew2.jpg">
+                 <img src="artgallery/black&#32;rose.jpg">
+                <img src="artgallery/fairy_barbie.jpg">
+                <img src="artgallery/perfectblue.jpg">
+                <img src="artgallery/firsthunt_art.jpg">
+            </div>
+            <div class="artcolumn">
+                <img src="artgallery/winxclub.jpg">
+                <img src="artgallery/flowerduo.jpg">
+                <img src="artgallery/lain.jpg">
+                <img src="artgallery/mewmew.jpg">
+                <img src="artgallery/tmm_lettuce.jpg">
+                <img src="artgallery/mermaid_barbie.jpg">
+                <img src="artgallery/navia.jpg">
+                <img src="artgallery/y2krobot.jpg">
+                <img src="artgallery/tmm_sm_pose.png">
+                
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+
+<!--FOOTER-->
+<footer>
+      <div id="footer">
+          <p>Copyright © 2025 Marighoul</p>
+      </div>
+</footer>
+</div>
+</body>
